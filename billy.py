@@ -1,6 +1,5 @@
 import csv
 import os
-import sys
 
 ifile  = open('input.csv', "rb")
 ofile  = open('output.csv', "wb")
@@ -37,5 +36,3 @@ for row in reader:
       incomplete += 1
 
 writer.writerow([username, fname, lname, complete, incomplete, email, manager, vp, sub])
-complete = 0
-incomplete = 0
