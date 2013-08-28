@@ -29,7 +29,7 @@ for row in reader:
       manager = row[7]
       vp = row[8]
       sub = row[9]
-      status = row[2]
+  status = row[2]
   if(status == "Completed"):
       complete += 1
   elif(status == "Incomplete"):
