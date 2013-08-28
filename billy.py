@@ -7,7 +7,6 @@ ofile  = open('output.csv', "wb")
 complete = 0
 incomplete = 0
 first = 1
-second = 1
 username = ''
 prior_user = ''
 
