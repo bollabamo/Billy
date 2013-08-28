@@ -25,13 +25,13 @@ for row in reader:
       writer.writerow([prior_user, fname, lname, complete, incomplete, email, manager, vp, sub])
       complete = 0
       incomplete = 0
-  fname = row[4]
-  lname = row[5]
-  email = row[6]
-  manager = row[7]
-  vp = row[8]
-  sub = row[9]
-  status = row[2]
+      fname = row[4]
+      lname = row[5]
+      email = row[6]
+      manager = row[7]
+      vp = row[8]
+      sub = row[9]
+      status = row[2]
   if(status == "Completed"):
       complete += 1
   elif(status == "Incomplete"):
